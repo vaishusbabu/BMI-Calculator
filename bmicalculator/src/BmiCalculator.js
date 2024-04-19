@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import { Chart as ChartJS, defaults } from "chart.js/auto";
 import { Doughnut } from 'react-chartjs-2';
 
-import { Pie } from 'react-chartjs-2';
 function BmiCalculator() {
     const [values, setValues] = useState({
         height: "",
